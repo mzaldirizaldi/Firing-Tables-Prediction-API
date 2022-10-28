@@ -14,7 +14,6 @@ scaler.fit(data_tembak_processed)
 # load models
 model_waktu = load('model_waktu.pkl')
 model_jarak = load('model_jarak.pkl')
-scaler_jarak = StandardScaler()
 
 app = Flask(__name__)
 
